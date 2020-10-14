@@ -1,0 +1,7 @@
+CREATE TABLE Item(
+	ItemId bigint IDENTITY(1,1) NOT NULL,
+	Name nvarchar(200) NULL,
+	ItemDescription nvarchar(max) NULL,
+	Price bigint NULL,
+	AddedOn datetime NULL,
+	ImageData nvarchar(max) NULL) 
